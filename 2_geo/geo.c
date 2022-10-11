@@ -2,7 +2,12 @@
 #include <math.h>
 
 int main(void){
-    double a = 5; double r = 0.7; double sum; int N = 7;
+    double a, r, sum;
+    int N;
+
+    printf("Type a, r, sum ");
+    scanf("%lf %d %lf", &a, &N, &r);
+
     for(int i =0; N>=i; i++){
         sum = sum + a*pow(r,i);
     }
