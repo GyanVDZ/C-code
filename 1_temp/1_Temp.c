@@ -1,10 +1,15 @@
+/*
+Student: Boyan Lowies
+Studynumber: 5845750
+Assignment number: 1
+*/
+
 #include <stdio.h>
 
 int main(void){
     double d;
-    printf("Insert var: ");
     scanf("%lf", &d );
-    printf("\nC     K       F");
-    printf("\n%.2f %.2f %.2f", d, d-273.15, d*1.8 + 32);
+    printf("C	K	F\n");
+    printf("%.2f	%.2f	%.2f\n", d, d+273.15, d*1.8 + 32);
     return 0;
 }
