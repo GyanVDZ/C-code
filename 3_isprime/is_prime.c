@@ -11,12 +11,12 @@ int main(void){
         return 0;
     }
 
+    
     for( int i =2 ; (i*i) <= number; i++){
         if((number % i) == 0){
             printf("\n%d is not a prime number",number);
             return 0;
         }
-        printf("\n%d",i);
     } 
     printf("\n%d is a prime number", number);
     return 0;
