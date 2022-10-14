@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 
+// Name: Boyan Lowies
+// Studynumber: 5845750
+// Assignment number: 1
+
+
 int main(void){
     double a, r, sum;
     int N;
