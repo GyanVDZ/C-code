@@ -3,11 +3,11 @@
 /*
 Student: Boyan Lowies
 Studynumber: 5845750
-Assignment number: 2
+Assignment number: 4
 */
 
 int is_prime(int number){
-	int result = 1;												/*initialise vars*/										/*get number*/
+	int result = 1;												/*initialise vars*/								
     int i;
 
     if(number < 2){												
@@ -35,4 +35,5 @@ int main(void){
 			printf("%d\n",i);
 		}
 	}
+	return 0;
 }

@@ -7,12 +7,10 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${workspaceFolder}\\5_ABC\\5_ABC.c",
+                "${workspaceFolder}\\5_ABC\\interface.c",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
-                "-ansi"
-                "–pedantic"  
-                "-Wall"
             ],
             "options": {
                 "cwd": "${fileDirname}"
