@@ -10,7 +10,7 @@
                 "${workspaceFolder}\\5_ABC\\5_ABC.c",
                 "${workspaceFolder}\\5_ABC\\interface.c",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\combined.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"

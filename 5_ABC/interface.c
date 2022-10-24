@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 void abc (void);
 
@@ -40,7 +41,9 @@ int main (void)
 		get_parameters ();
 		abc ();
 		print_solution ();
+		sleep(115);
 	}
+	
 
 	return 0;
 }
