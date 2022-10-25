@@ -7,8 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}\\5_ABC\\5_ABC.c",
-                "${workspaceFolder}\\5_ABC\\interface.c",
+                "${file}",
                 "-o",
                 "${fileDirname}\\combined.exe"
             ],
