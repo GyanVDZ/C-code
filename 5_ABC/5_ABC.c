@@ -12,8 +12,8 @@ extern int a, b, c;
 double x1real, x2real; 							/*interalise global an external vars*/
 double complex ximag;
 
-int discriminant(void){							/*calculate d and return static disc*/
-    static double disc = 0;
+static int discriminant(void){							/*calculate d and return static disc*/
+    double disc = 0;
     disc = (b*b) - 4*a*c;	
     return disc;
 }
